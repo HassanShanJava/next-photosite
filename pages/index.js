@@ -3,6 +3,7 @@ import { Inter } from '@next/font/google'
 import Hero from '../components/Hero'
 import Slider from '../components/Slider'
 import { SliderData } from '../components/SliderData'
+import Instagram from '../components/Instagram'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
       {/* pass in prop */}
       <Hero heading="Capture Photography" message='I capture moments and keep them alive.'/>
       <Slider sliderData={SliderData} />
+      <Instagram/>
       
     </>
   )
