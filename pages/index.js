@@ -13,7 +13,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero/>
+      {/* pass in prop */}
+      <Hero heading="Capture Photography" message='I capture moments and keep them alive.'/>
       
     </div>
   )
